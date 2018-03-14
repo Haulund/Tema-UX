@@ -1,7 +1,10 @@
 header{
   .mobileheader {
     width: 100%;
+    height: 30px;
     font-size: 20px;
+    background-color: #31317E;
+    color: white;
 
      svg {
        float: right;
@@ -28,17 +31,98 @@ header{
     }
     .desktopdiv{
       display: block;
+      height: 40px;
+      background-color: #31317E;
+
       p {
         float: left;
+        @include headerbtn;
+        color: white;
       }
+
       nav {
         float: right;
-        list-style-type: none;
-        display: inline;
+        ul {
+          list-style-type: none;
+          li {
+            display: inline-block;
+            width: 123px;
+            background-color: #540072;
+            height: 31px;
+            text-align: center;
+            margin: 0px 9px;
+
+            a {
+              text-decoration: none;
+              color: black;
+              color: white;
+              font-size: 19px;
+              position: relative;
+              transform: translate(-50%,-50%);
+              top: 15%;
+              // left: 50%;
+            }
+          }
+        }
       }
     }
+
     .desktopmiddiv{
+      width: 100%;
+      height:140px;
       display: block;
+      background-color: #8A20AA;
+      // height: 65px;
+      .logo{
+        height: 65px;
+        float: left;
+        text-align: center;
+        margin: 0px 25px;
+
+        p {
+          font-size: 55px;
+          top: 115%;
+          position: relative;
+          transform: translateY( -50%);
+          font-family: playfair display;
+          color: white;
+        }
+      }
+      .nav2{
+        width: 60%;
+        float: left;
+        ul {
+          list-style-type: none;
+          margin-top: 51px;
+          li {
+            display: inline-block;
+            width: 16%;
+            height: 50px;
+            text-align: center;
+            font-size: 19px;
+            background-color: #31317E;
+            a {
+              text-decoration: none;
+              color: white;
+              position: relative;
+              top: 25%;
+              transform: translateY( -50%);
+            }
+          }
+        }
+      }
+      .search{
+        width: 20%;
+        height: 50px;
+        float: right;
+        text-align: center;
+        padding: 15px 0px;
+        font-size: 20px;
+        background-color: #31317E;
+        margin-right: 30px;
+        margin-top: 50px;
+        color: white;
+      }
     }
   }
 }

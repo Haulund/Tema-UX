@@ -3,6 +3,7 @@
           box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: helvetica neue;
 }
 
 footer {
@@ -47,7 +48,10 @@ footer .some {
 }
 header .mobileheader {
   width: 100%;
+  height: 30px;
   font-size: 20px;
+  background-color: #31317E;
+  color: white;
 }
 header .mobileheader svg {
   float: right;
@@ -69,17 +73,96 @@ header .desktopmiddiv {
   }
   header .desktopdiv {
     display: block;
+    height: 40px;
+    background-color: #31317E;
   }
   header .desktopdiv p {
     float: left;
+    height: 30px;
+    padding: 2px 8px;
+    margin: 5px 5px;
+    color: white;
   }
   header .desktopdiv nav {
     float: right;
+  }
+  header .desktopdiv nav ul {
     list-style-type: none;
-    display: inline;
+  }
+  header .desktopdiv nav ul li {
+    display: inline-block;
+    width: 123px;
+    background-color: #540072;
+    height: 31px;
+    text-align: center;
+    margin: 0px 9px;
+  }
+  header .desktopdiv nav ul li a {
+    text-decoration: none;
+    color: black;
+    color: white;
+    font-size: 19px;
+    position: relative;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 15%;
   }
   header .desktopmiddiv {
+    width: 100%;
+    height: 140px;
     display: block;
+    background-color: #8A20AA;
+  }
+  header .desktopmiddiv .logo {
+    height: 65px;
+    float: left;
+    text-align: center;
+    margin: 0px 25px;
+  }
+  header .desktopmiddiv .logo p {
+    font-size: 55px;
+    top: 115%;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-family: playfair display;
+    color: white;
+  }
+  header .desktopmiddiv .nav2 {
+    width: 60%;
+    float: left;
+  }
+  header .desktopmiddiv .nav2 ul {
+    list-style-type: none;
+    margin-top: 51px;
+  }
+  header .desktopmiddiv .nav2 ul li {
+    display: inline-block;
+    width: 16%;
+    height: 50px;
+    text-align: center;
+    font-size: 19px;
+    background-color: #31317E;
+  }
+  header .desktopmiddiv .nav2 ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  header .desktopmiddiv .search {
+    width: 20%;
+    height: 50px;
+    float: right;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 20px;
+    background-color: #31317E;
+    margin-right: 30px;
+    margin-top: 50px;
+    color: white;
   }
 }
 * {
