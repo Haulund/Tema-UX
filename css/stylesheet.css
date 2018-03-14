@@ -172,11 +172,13 @@ header .desktopmiddiv {
           box-sizing: border-box;
 }
 
+/*produktside*/
 body {
   background-color: #540072;
 }
 body main {
   clear: both;
+  /*Kundeinformation*/
 }
 body main img {
   width: 90%;
@@ -235,6 +237,10 @@ body main .plus {
 }
 body main button {
   background-color: yellow;
+}
+body main .box2 {
+  width: 100%;
+  height: 50px;
 }
 
 @media screen and (min-width: 768px) {
