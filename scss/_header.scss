@@ -1,0 +1,41 @@
+header{
+  .mobileheader {
+    width: 100%;
+    font-size: 20px;
+
+     svg {
+       float: right;
+       margin: 4px 8px;
+       &:first-of-type{
+         float: left;
+     }
+    }
+  }
+  .desktopheader {
+    display: none;
+  }
+
+  .desktopmiddiv{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    .mobileheader {
+      display: none;
+    }
+    .desktopdiv{
+      display: block;
+      p {
+        float: left;
+      }
+      nav {
+        float: right;
+      }
+    }
+    .desktopmiddiv{
+      display: block;
+    }
+  }
+}
