@@ -11,7 +11,7 @@ header{
      }
     }
   }
-  .desktopheader {
+  .desktopdiv {
     display: none;
   }
 
@@ -32,6 +32,8 @@ header{
       }
       nav {
         float: right;
+        list-style-type: none;
+        display: inline;
       }
     }
     .desktopmiddiv{
