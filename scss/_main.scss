@@ -4,6 +4,48 @@
   box-sizing: border-box;
 }
 
+main {
+  width: 100%;
+
+  .leftside{
+    width:90%;
+    margin:  auto;
+
+    img {
+      max-width: 500px;
+    }
+  }
+
+  .rightside {
+    width: 90%;
+    margin: auto;
+    .box {
+      .beskrivelse{
+        padding: 7px;
+      }
+    }
+    .buybuttons{
+      margin: 10px;
+      width: 100%;
+
+      p {
+        margin: 5px;
+        padding: 10px;
+        color: white;
+      }
+
+      button{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+
+        &:nth-of-type(3){
+          width: 100px;
+        }
+      }
+    }
+  }
+}
 
 
 @media screen and (min-width: 768px) {
@@ -47,11 +89,7 @@
         display: inline-flex;
         justify-content: center;
 
-        p {
-          margin: 5px;
-          padding: 10px;
-          color: white;
-        }
+
 
         button{
           margin: 10px;

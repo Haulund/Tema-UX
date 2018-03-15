@@ -173,6 +173,41 @@ header .desktopmiddiv {
           box-sizing: border-box;
 }
 
+main {
+  width: 100%;
+}
+main .leftside {
+  width: 90%;
+  margin: auto;
+}
+main .leftside img {
+  max-width: 500px;
+}
+main .rightside {
+  width: 90%;
+  margin: auto;
+}
+main .rightside .box .beskrivelse {
+  padding: 7px;
+}
+main .rightside .buybuttons {
+  margin: 10px;
+  width: 100%;
+}
+main .rightside .buybuttons p {
+  margin: 5px;
+  padding: 10px;
+  color: white;
+}
+main .rightside .buybuttons button {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+main .rightside .buybuttons button:nth-of-type(3) {
+  width: 100px;
+}
+
 @media screen and (min-width: 768px) {
   body {
     background-color: #540072;
@@ -212,11 +247,6 @@ header .desktopmiddiv {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  body main .rightside .buybuttons p {
-    margin: 5px;
-    padding: 10px;
-    color: white;
   }
   body main .rightside .buybuttons button {
     margin: 10px;
