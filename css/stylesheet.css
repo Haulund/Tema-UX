@@ -6,6 +6,11 @@
   font-family: helvetica neue;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 footer {
   clear: both;
   /*position: absolute;
@@ -203,6 +208,7 @@ main .rightside .buybuttons button {
   width: 50px;
   height: 50px;
   margin: 10px;
+  background-color: #B4AEC6;
 }
 main .rightside .buybuttons button:nth-of-type(3) {
   width: 100px;
